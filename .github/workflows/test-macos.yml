@@ -1,0 +1,18 @@
+name: test-macos
+
+on:
+  push:
+    branches: [main]
+
+jobs:
+  test-macos:
+    runs-on: macos-latest
+    steps:
+    - name: Clone this repo
+      run: git clone --depth 1 https://github.com/nobu-g/dotfiles.git
+    - name: Install dotfiles
+      run: make install
+      working-directory: ./dotfiles
+    - name: Test commands
+      run: make test
+      working-directory: ./dotfiles
