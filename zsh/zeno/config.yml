@@ -1,0 +1,10 @@
+snippets:
+  # snippet and keyword abbrev
+  - name: git status
+    keyword: gs
+    snippet: git status --short --branch
+  
+  - name: python kyopro
+    keyword: pai
+    snippet: python3 answer.py < input.txt
+    
