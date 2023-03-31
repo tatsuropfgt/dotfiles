@@ -1,5 +1,4 @@
 # homebrew
-
 export PATH="$PATH:/opt/homebrew/bin" 
 
 # pyenv
@@ -8,16 +7,13 @@ export PATH="$PYENV_ROOT/shims:$PATH"
 eval "$(pyenv init --path)"
 eval "$(pyenv init -)"
 
-
-#zlib
-
+# zlib
 export LDFLAGS="-L/opt/homebrew/opt/zlib/lib"
 export CPPFLAGS="-I/opt/homebrew/opt/zlib/include"
 export PKG_CONFIG_PATH="/opt/homebrew/opt/zlib/lib/pkgconfig"
 
 
 # python3
-
 alias python='python3'
 alias pip='pip3'
 
