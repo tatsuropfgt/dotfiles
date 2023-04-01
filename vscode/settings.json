@@ -1,0 +1,18 @@
+{
+    "workbench.colorTheme": "Community Material Theme Darker High Contrast",
+    "remote.SSH.connectTimeout": 30,
+    "window.zoomLevel": 1,
+    "files.autoSave": "afterDelay",
+    "terminal.integrated.enableMultiLinePasteWarning": false,
+    "[python]": {
+        "editor.formatOnType": true
+    },
+    "python.terminal.activateEnvironment": false,
+    "workbench.iconTheme": "vscode-icons",
+    "terminal.integrated.fontFamily": "'MesloLGS NF'",
+    "python.linting.flake8Enabled": true,
+    "flake8.args": [
+        "--max-line-length",
+        "120"
+    ]
+}
