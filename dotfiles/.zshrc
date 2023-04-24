@@ -2,10 +2,10 @@
 export PATH="$PATH:/opt/homebrew/bin" 
 
 # pyenv
-export PYENV_ROOT="$HOME/.pyenv"
-export PATH="$PYENV_ROOT/shims:$PATH"
-eval "$(pyenv init --path)"
-eval "$(pyenv init -)"
+# export PYENV_ROOT="$HOME/.pyenv"
+# export PATH="$PYENV_ROOT/shims:$PATH"
+# eval "$(pyenv init --path)"
+# eval "$(pyenv init -)"
 
 # zlib
 export LDFLAGS="-L/opt/homebrew/opt/zlib/lib"
