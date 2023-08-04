@@ -114,3 +114,7 @@ setopt extended_glob
 # ここではデフォルトのセットから / を抜いたものにしている
 # ※ たとえば Ctrl-W でカーソル前の1単語を削除したとき / までで削除が止まる
 WORDCHARS='*?_-.[]~=&;!#$%^(){}<>'
+
+# キー入力速度変更
+defaults write -g KeyRepeat -int 1
+defaults write -g InitialKeyRepeat -int 11
