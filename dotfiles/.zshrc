@@ -51,6 +51,8 @@ bindkey '^r' select-history
 # エイリアス
 alias ...='cd ../..'
 alias ....='cd ../../..'
+alias .....='cd ../../../..'
+alias ......='cd ../../../../..'
 alias v='vim'
 alias vi='vim'
 alias so='source'
@@ -118,3 +120,6 @@ WORDCHARS='*?_-.[]~=&;!#$%^(){}<>'
 # キー入力速度変更
 defaults write -g KeyRepeat -int 1
 defaults write -g InitialKeyRepeat -int 11
+
+# 改行して cat
+catln() { echo "$(cat $@)"; }
