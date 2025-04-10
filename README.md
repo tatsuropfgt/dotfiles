@@ -1,5 +1,12 @@
 # dotfiles
 
+## installation
+```sh
+git clone https://github.com/tatsuropfgt/dotfiles.git
+cd dotfiles
+sh scripts/setup.sh
+```
+
 ## メモ
 font: MesloLGS Nl
 
